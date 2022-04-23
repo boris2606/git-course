@@ -7,11 +7,12 @@
 .tit_rules_txt {
     text-align: center;
     font: 600 24px Arial;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .content {
     max-width: 1024px ;
-    margin: 30px auto;
+    margin: 20px auto;
+    padding: 0px 40px;
     
     ul li{
         font:400 18px Arial;
@@ -19,6 +20,8 @@
     }
     table{
         margin: 0 auto;
+        width: 100%;
+        max-width: 800px;
     }
     th {
         font:600 20px Arial;

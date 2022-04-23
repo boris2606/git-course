@@ -6,16 +6,19 @@
 .tit_rules_txt {
   text-align: center;
   font: 600 24px Arial;
-  margin-top: 30px; }
+  margin-top: 50px; }
 
 .content {
   max-width: 1024px;
-  margin: 30px auto; }
+  margin: 20px auto;
+  padding: 0px 40px; }
   .content ul li {
     font: 400 18px Arial;
     list-style: circle; }
   .content table {
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px; }
   .content th {
     font: 600 20px Arial;
     text-align: center; }
