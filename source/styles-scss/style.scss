@@ -6,7 +6,7 @@
 }
 .tit_rules_txt {
     text-align: center;
-    font: 600 24px Arial;
+    font: 600 22px Arial;
     margin-top: 50px;
     text-transform: uppercase;
 }
@@ -14,6 +14,9 @@
     max-width: 1024px ;
     margin: 20px auto;
     padding: 0px 40px;
+    border-radius: 25px;
+    background-color: #e4db3346;
+    padding: 30px;
     
     ul li{
         font:400 18px Arial;
