@@ -1,0 +1,35 @@
+@import url(reset.css);
+@import url(fonts.css);
+.block {
+  position: relative; }
+
+.tit_rules_txt {
+  text-align: center;
+  font: 600 24px Arial;
+  margin-top: 30px; }
+
+.content {
+  max-width: 1024px;
+  margin: 30px auto; }
+  .content ul li {
+    font: 400 18px Arial;
+    list-style: circle; }
+  .content table {
+    margin: 0 auto; }
+  .content th {
+    font: 600 20px Arial;
+    text-align: center; }
+  .content tr {
+    font: 400 18px Arial;
+    transition: .3s all ease-in-out;
+    text-align: left;
+    margin-bottom: 10px; }
+  .content tr td:nth-child(1) {
+    padding-right: 50px;
+    padding-top: 10px; }
+  .content tr td:nth-last-child(1) {
+    text-align: right; }
+  .content tr:nth-child(n+2) {
+    border-bottom: 1px solid rgba(111, 111, 111, 0.5); }
+  .content tr:nth-child(n+2):hover {
+    background-color: #D6EEEE; }

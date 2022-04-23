@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+	meta(charset='UTF-8')
+	meta(name="viewport" content="width=device-width, initial-scale=1.0")
+	head
+		title GIT learning
+		link(rel='stylesheet', href='css/style.css')
+	body
+		p.tit_rules_txt Основні команди GIT
+		section.block 
+			main.content 
+				table
+					tr
+						th Команда
+						th Значення
+					tr
+						td cls
+						td перегляд наявних файлів в директорії
+					tr
+						td ls
+						td очистка екрану терміналу
+					tr
+						td cd (назва папки)
+						td перехід в вказану директорію
+					tr
+						td cd ..
+						td повернення до попередньої директорії
+					tr
+						td git init
+						td ініціалізація git
+					tr
+						td git status
+						td перегляд статусу змін в файлах
+					tr
+						td git add .
+						td додавання для відслідкування git файлів
+					tr
+						td git rm --cached (назва файлу)
+						td зупинка слідкування за файл
+					tr
+						td git commit -m ''
+						td комміт змін файлів
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js")
+		script(src='js/min.js')
+
+

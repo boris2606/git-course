@@ -1,0 +1,46 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.block {
+    position: relative;
+}
+.tit_rules_txt {
+    text-align: center;
+    font: 600 24px Arial;
+    margin-top: 30px;
+}
+.content {
+    max-width: 1024px ;
+    margin: 30px auto;
+    
+    ul li{
+        font:400 18px Arial;
+        list-style: circle;
+    }
+    table{
+        margin: 0 auto;
+    }
+    th {
+        font:600 20px Arial;
+        text-align: center;
+    }
+    tr {
+        font:400 18px Arial;
+        transition: .3s all ease-in-out;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    tr td:nth-child(1){
+        padding-right: 50px;
+        padding-top: 10px;
+    }
+    tr td:nth-last-child(1){
+        text-align: right;
+    }
+    tr:nth-child(n+2){
+        border-bottom: 1px solid rgba(111, 111, 111, .5);
+    }
+    tr:nth-child(n+2):hover {
+        background-color: #D6EEEE;
+    }
+}
