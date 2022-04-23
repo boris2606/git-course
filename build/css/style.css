@@ -24,6 +24,8 @@
     transition: .3s all ease-in-out;
     text-align: left;
     margin-bottom: 10px; }
+  .content td {
+    min-width: 200px; }
   .content tr td:nth-child(1) {
     padding-right: 50px;
     padding-top: 10px; }

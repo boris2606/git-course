@@ -30,6 +30,9 @@
         text-align: left;
         margin-bottom: 10px;
     }
+    td {
+        min-width: 200px;
+    }
     tr td:nth-child(1){
         padding-right: 50px;
         padding-top: 10px;
