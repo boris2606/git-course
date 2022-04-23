@@ -5,8 +5,14 @@
 
 .tit_rules_txt {
   text-align: center;
+<<<<<<< HEAD
   font: 600 24px Arial;
   margin-top: 50px; }
+=======
+  font: 600 22px Arial;
+  margin-top: 50px;
+  text-transform: uppercase; }
+>>>>>>> css-work
 
 .content {
   max-width: 1024px;
